@@ -1,0 +1,104 @@
+.heading {
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: cadetblue;
+    cursor: pointer
+}
+h2 {
+    color:khaki;
+    width: 170px;
+    
+}
+
+
+.NavigationBar{
+    background-color: yellow;
+    width: 315px;
+    height: 40px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    align-content: center;
+    padding: 5px 0 0 3px;
+    
+}
+.NavigationItem {
+    list-style: none;
+    display: inline;
+    color: yellow;
+    font-size: 20px;
+    border-left: 3px solid green;
+    
+    /* Background Gradient */
+    background: rgb(147,194,236); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(147,194,236,1) 0%, rgba(142,190,230,1) 19%, rgba(135,179,218,1) 44%, rgba(136,180,219,1) 46%, rgba(133,177,214,1) 50%, rgba(129,173,210,1) 60%, rgba(126,166,201,1) 90%, rgba(122,162,197,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(147,194,236,1) 0%,rgba(142,190,230,1) 19%,rgba(135,179,218,1) 44%,rgba(136,180,219,1) 46%,rgba(133,177,214,1) 50%,rgba(129,173,210,1) 60%,rgba(126,166,201,1) 90%,rgba(122,162,197,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(147,194,236,1) 0%,rgba(142,190,230,1) 19%,rgba(135,179,218,1) 44%,rgba(136,180,219,1) 46%,rgba(133,177,214,1) 50%,rgba(129,173,210,1) 60%,rgba(126,166,201,1) 90%,rgba(122,162,197,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93c2ec', endColorstr='#7aa2c5',GradientType=0 );
+}
+aside {
+        align-content: right;
+        margin-left: 77%;
+    }
+aside img {
+    border: 2px solid green;
+    border-left-style: dotted;
+    border-left-color: black;    
+}
+
+.languages {
+        text-align: center;
+        margin-right: 30%;
+    }
+.Llist {
+    background-color: brown;
+    border: 2px solid brown;
+    border-radius: 3px;
+    width: 150px;
+    margin: 0px 10px 0px 10px;
+}
+.languagesList a:hover {
+        background-color: aqua;
+    }
+
+.Llist .languagesList{
+    border-left: 2px solid blue;
+    background-color: aquamarine;
+    margin-top: 2px;
+    
+}
+.logo {
+    float: right;
+    opacity: 0.5;
+    border: 2px solid grey;
+    border-radius: 5px;
+    height: 150px;
+    width: 170px;
+    
+}
+.logo:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+table {
+    overflow-x:auto;
+}
+td {
+        text-align: center;
+    }
+th {
+    color: firebrick;
+}
+
+td:nth-child(even)  {
+    background-color: silver;
+}
+
+
+video {
+    border: 2px solid green;
+    border-style: dotted;
+}
+p {
+    text-align: left;
+}
